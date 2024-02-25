@@ -1,3 +1,7 @@
+<p align="center">
+    <img src=".github/projeto-figma.png" alt="Demonstração do projeto" style="border-radius: 15px;">
+</p>
+
 ## Projeto ✍
 Foi utilizado a função css "clamp()". Com essa função podemos definir valores minimos, médios e máximos de tamanhos, de acordo com o tamanho do viewport da página, por exemplo. Sendo uma mão na roda para respondividade de fontes.
 <p>Obs: também utilizei no espaçamento com "gap".</p>
