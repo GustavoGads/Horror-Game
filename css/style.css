@@ -1,0 +1,113 @@
+@import "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: sans-serif;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/BG-IMG.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 100%;
+    overflow: hidden;
+
+}
+
+.container {
+    height: 100vh;
+    margin-top: 160px;
+    padding: 0 1%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: clamp(15px, 5vw, 72px);
+}
+
+h3 {
+    color: #FFF;
+    text-align: center;
+    font-size: clamp(10px, 2vw, 16px);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+h3 span {
+    color: #FFC700;
+}
+
+h1 {
+    max-width: 714px;
+
+    color: #FFC700;
+    text-align: center;
+    font-family: "Emilys Candy";
+    font-size: clamp(40px, 10vw, 64px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+h2 {
+    color: rgba(255, 255, 255, 0.70);
+    text-align: center;
+    font-size: clamp(15px, 3vw, 20px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.interacao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+}
+
+a {
+    padding: 12px 32px;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+a:hover {
+    color: #fff;
+}
+
+button {
+    padding: 12px 32px;
+
+    border: none;
+    background: #FFC700;
+    
+    color: #040101;
+    text-align: center;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #dfaf00;
+}
+
+a, button {
+    font-size: clamp(13px, 3vw, 20px);
+}
